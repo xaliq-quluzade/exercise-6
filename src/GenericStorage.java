@@ -1,4 +1,4 @@
-public class GenericStorage<T> {
+public class GenericStorage<T extends Person> {
     private Object[] items = new Object[0];
 
     public void addItem(T item) {
